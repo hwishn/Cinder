@@ -22,13 +22,15 @@
  POSSIBILITY OF SUCH DAMAGE.
 */
 
+#define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING
+
 #pragma once
 
 #if (defined(__cplusplus) && __cplusplus >= 201703L && defined(__has_include) && __has_include(<filesystem>)) || defined( _MSC_VER )
 		#define GHC_USE_STD_FS
-		#include <filesystem>
+		#include <experimental/filesystem>
 		namespace cinder {
-			namespace fs = std::filesystem;
+			namespace fs = std::experimental::filesystem;
 		}
 #endif
 
