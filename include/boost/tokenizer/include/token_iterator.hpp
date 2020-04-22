@@ -21,7 +21,7 @@
 #include <boost/assert.hpp>
 #include <boost/iterator/iterator_adaptor.hpp>
 #include <boost/iterator/minimum_category.hpp>
-#include <boost/token_functions.hpp>
+#include <boost/tokenizer/include/token_functions.hpp>
 #include <utility>
 
 namespace boost
@@ -33,7 +33,7 @@ namespace boost
           , Type
           , typename iterators::minimum_category<
                 forward_traversal_tag
-              , typename iterator_traversal<Iterator>::type
+              , typename iterator_traversal<Iterator>Type
             >::type
           , const Type&
         >
