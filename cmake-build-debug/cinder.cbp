@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cinder"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\proj\;CMake Files\proj\cmake\;CMake Files\proj\cmake\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/butte/CLionProjects/Cinder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/butte/CLionProjects/Cinder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cinder">
+				<Option output="C:/Users/butte/CLionProjects/Cinder/lib/msw/x86/Debug/v140/cinder.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/butte/CLionProjects/Cinder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-D_LIB"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/jsoncpp"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/tinyexr"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/imgui"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/src/linebreak"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/src/r8brain"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/oggvorbis"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/freetype"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/msw/zlib"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 cinder"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cinder/fast">
+				<Option output="C:/Users/butte/CLionProjects/Cinder/lib/msw/x86/Debug/v140/cinder.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/butte/CLionProjects/Cinder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-D_LIB"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/jsoncpp"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/tinyexr"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/imgui"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/src/linebreak"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/src/r8brain"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/oggvorbis"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/freetype"/>
+					<Add directory="C:/Users/butte/CLionProjects/Cinder/include/msw/zlib"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 cinder/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/butte/CLionProjects/Cinder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\butte\CLionProjects\Cinder\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/LoadOGL.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/LoadOGL.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/LoadOGLCore.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/LoadOGLCore.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwBar.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwBar.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwColors.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwColors.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwDirect3D11.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwDirect3D11.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwFonts.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwFonts.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwMgr.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwMgr.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwOpenGL.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwOpenGL.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwOpenGLCore.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwOpenGLCore.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwPrecomp.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/AntTweakBar/TwPrecomp.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Area.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/BSpline.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/BSplineFit.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/BandedMatrix.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Base64.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Buffer.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Camera.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/CameraUi.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Capture.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/CaptureImplDirectShow.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Channel.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/CinderAssert.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/CinderImGui.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/CinderMath.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Clipboard.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Color.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/DataSource.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/DataTarget.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Display.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Exception.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/FileWatcher.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Filesystem.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Font.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Frustum.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/GeomIo.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ImageFileTinyExr.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ImageIo.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ImageSourceFileRadiance.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ImageSourceFileStbImage.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ImageSourceFileWic.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ImageTargetFileStbImage.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ImageTargetFileWic.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Json.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Log.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Matrix.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ObjLoader.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Path2d.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Perlin.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Plane.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/PolyLine.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Rand.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Ray.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Rect.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Serial.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Shape2d.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Signals.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Sphere.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Stream.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Surface.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/System.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Text.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Timeline.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/TimelineItem.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Timer.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/TriMesh.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Triangulate.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Tween.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Unicode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Url.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/UrlImplWinInet.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Utilities.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/Xml.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/AppBase.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/AppScreenSaver.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/KeyEvent.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/Platform.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/Renderer.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/RendererGl.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/Window.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/msw/AppImplMsw.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/msw/AppImplMswBasic.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/msw/AppImplMswScreenSaver.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/msw/AppMsw.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/msw/PlatformMsw.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/msw/RendererImpl2dGdi.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/app/msw/RendererImplGlMsw.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/ChannelRouterNode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/Context.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/DelayNode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/Device.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/FileOggVorbis.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/FilterNode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/GenNode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/InputNode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/MonitorNode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/Node.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/NodeMath.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/OutputNode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/PanNode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/Param.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/SamplePlayerNode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/SampleRecorderNode.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/Source.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/Target.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/Utilities.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/Voice.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/WaveTable.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/dsp/Biquad.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/dsp/Converter.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/dsp/ConverterR8brain.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/dsp/Dsp.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/dsp/Fft.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/dsp/ooura/fftsg.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/msw/ContextWasapi.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/msw/DeviceManagerWasapi.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/msw/FileMediaFoundation.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/audio/msw/MswUtil.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Batch.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/BufferObj.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/BufferTexture.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/ConstantConversions.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Context.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Environment.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/EnvironmentCore.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/EnvironmentEs.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Fbo.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/GlslProg.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Pbo.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Query.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Sampler.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Shader.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/ShaderPreprocessor.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Sync.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Texture.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/TextureFont.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/TextureFormatParsers.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/TransformFeedbackObj.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Ubo.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Vao.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/VaoImplCore.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/VaoImplEs.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/VaoImplSoftware.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/Vbo.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/VboMesh.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/draw.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/nv/Multicast.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/scoped.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/gl/wrapper.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Blend.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Blur.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Checkerboard.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/EdgeDetect.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Fill.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Flip.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Grayscale.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Hdr.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Premultiply.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Resize.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Threshold.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/ip/Trim.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/msw/CinderMsw.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/msw/CinderMswGdiPlus.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/msw/StackWalker.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/params/Params.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/cinder/svg/Svg.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/autofit/autofit.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftbase.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftbase.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftbbox.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftbdf.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftbitmap.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftcid.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftdebug.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftfstype.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftgasp.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftglyph.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftgxval.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftinit.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftmm.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftotval.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftpatent.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftpfr.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftstroke.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftsynth.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftsystem.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/fttype1.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/base/ftwinfnt.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/bdf/bdf.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/bdf/bdf.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/bdf/bdflib.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/bzip2/ftbzip2.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/cache/ftcache.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/cff/cff.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/cid/type1cid.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/gxvalid/gxvalid.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/gxvalid/gxvalid.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/gzip/ftgzip.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/lzw/ftlzw.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/otvalid/otvalid.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/otvalid/otvalid.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/pcf/pcf.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/pcf/pcf.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/pfr/pfr.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/psaux/psaux.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/pshinter/pshinter.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/psnames/psnames.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/raster/raster.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/sfnt/sfnt.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/smooth/smooth.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/truetype/truetype.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/type1/type1.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/type42/type42.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/winfonts/winfnt.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/freetype/winfonts/winfnt.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/glad/glad.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/glad/glad_wgl.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/imgui/imgui.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/imgui/imgui_demo.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/imgui/imgui_draw.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/imgui/imgui_freetype.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/imgui/imgui_impl_opengl3.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/imgui/imgui_stdlib.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/imgui/imgui_widgets.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/jsoncpp/jsoncpp.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/bucketalloc.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/bucketalloc.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/dict.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/dict.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/geom.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/geom.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/mesh.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/mesh.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/priorityq.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/priorityq.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/sweep.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/sweep.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/tess.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/libtess2/tess.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/linebreak/linebreak.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/linebreak/linebreak.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/linebreak/linebreakdata.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/linebreak/linebreakdef.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/linebreak/linebreakdef.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/ogg/bitwise.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/ogg/framing.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/analysis.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/bitrate.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/bitrate.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/block.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/codebook.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/codebook.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/envelope.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/envelope.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/floor0.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/floor1.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/info.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/lookup.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/lookup.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/lpc.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/lpc.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/lsp.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/lsp.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/mapping0.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/mdct.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/mdct.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/psy.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/psy.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/registry.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/registry.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/res0.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/sharedbook.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/smallft.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/smallft.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/synthesis.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/vorbisenc.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/vorbisfile.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/window.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/oggvorbis/vorbis/window.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/r8brain/r8bbase.cpp">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/r8brain/r8bbase.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/tinyexr/tinyexr.cc">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/adler32.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/compress.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/crc32.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/crc32.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/deflate.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/deflate.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/gzclose.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/gzlib.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/gzread.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/gzwrite.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/infback.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/inffast.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/inffast.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/inflate.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/inflate.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/inftrees.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/inftrees.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/trees.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/trees.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/uncompr.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/zutil.c">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/src/zlib/zutil.h">
+			<Option target="cinder"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\proj\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/proj/cmake/libcinder_configure.cmake">
+			<Option virtualFolder="CMake Files\proj\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/proj/cmake/libcinder_source_files.cmake">
+			<Option virtualFolder="CMake Files\proj\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/proj/cmake/libcinder_target.cmake">
+			<Option virtualFolder="CMake Files\proj\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/proj/cmake/platform_msw.cmake">
+			<Option virtualFolder="CMake Files\proj\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/proj/cmake/utilities.cmake">
+			<Option virtualFolder="CMake Files\proj\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/butte/CLionProjects/Cinder/proj/cmake/modules/cinderConfig.buildtree.cmake.in">
+			<Option virtualFolder="CMake Files\proj\cmake\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

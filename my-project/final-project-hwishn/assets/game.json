@@ -1,0 +1,123 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "America's Strategic Defense System during the Cold War was nicknamed after this famous movie.",
+      "correct_answer": "Star Wars",
+      "incorrect_answers": [
+        "Jaws",
+        "Blade Runner",
+        "Alien"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Just Cause 2 was mainly set in what fictional Southeast Asian island country?",
+      "correct_answer": "Panau",
+      "incorrect_answers": [
+        "Davao",
+        "Macau",
+        "Palau"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In 2012 the German-speaking microstate Liechtenstein; in Central Europe had a population of how many inhabitants?",
+      "correct_answer": "36,600",
+      "incorrect_answers": [
+        "2,400",
+        "90,000",
+        "323,400"
+      ]
+    },
+    {
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Chemistry, how many isomers does Butanol (C4H9OH) have?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "3",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Before voicing Pearl in Steven Universe, Deedee Magno Hall was part of which American band?",
+      "correct_answer": "The Party",
+      "incorrect_answers": [
+        "The Weather Girls",
+        "The Pussycat Dolls",
+        "The Cheetah Girls"
+      ]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Star Trek;, what is the Klingon death ritual?",
+      "correct_answer": "Look into sky and yell loudly in mourning.",
+      "incorrect_answers": [
+        "Kiss the jagged forehead before burial.",
+        "Shoot into space in a torpedo casing.",
+        "Split the deceased&#039;s earnings between bloodkin."
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What book series published by Jim Butcher follows a wizard in modern day Chicago?",
+      "correct_answer": "The Dresden Files",
+      "incorrect_answers": [
+        "A Hat in Time",
+        "The Cinder Spires",
+        "My Life as a Teenage Wizard"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "In 1993, Prince changed his name to an unpronounceable symbol because he was unhappy with his contract with Warner Bros.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Politics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What year did the effort to deploy the Common Core State Standards (CCSS) in the US begin?",
+      "correct_answer": "2009",
+      "incorrect_answers": [
+        "2012",
+        "2006",
+        "1997"
+      ]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which actor was not a major character in TV Show Freaks and Geeks?",
+      "correct_answer": "Jonah Hill",
+      "incorrect_answers": [
+        "Jason Segel",
+        "Seth Rogen",
+        "James Franco"
+      ]
+    }
+  ]
+}
