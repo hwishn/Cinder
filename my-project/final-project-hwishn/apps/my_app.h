@@ -67,7 +67,7 @@ public:
     const Color color = Color::black();
 
     void update() override;
-
+    void getQuestions();
     void setNextQuestion();
 };
 

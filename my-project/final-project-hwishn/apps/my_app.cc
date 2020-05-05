@@ -144,11 +144,11 @@ void MyApp::draw() {
         PrintText("d." + answers[3], color, size, {600, 680});
     }
 
-    gl::color( Color( 1, 1, 0 ) );
-    std::vector<TouchEvent::Touch> activeTouches(getActiveTouches());
-    for( auto touchIt = activeTouches.begin(); touchIt != activeTouches.end(); ++touchIt ) {
-        gl::drawLine( touchIt->getPos(), touchIt->getPos());
-    }
+    //gl::color( Color( 1, 1, 0 ) );
+    //std::vector<TouchEvent::Touch> activeTouches(getActiveTouches());
+    //for( auto touchIt = activeTouches.begin(); touchIt != activeTouches.end(); ++touchIt ) {
+        //gl::drawLine( touchIt->getPos(), touchIt->getPos());
+    //}
 }
 
 void MyApp::setNextQuestion() {
