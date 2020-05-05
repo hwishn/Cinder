@@ -140,10 +140,10 @@ void TuioMultiTouchBasicApp::draw()
 
 	// draw yellow circles at the active touch points
 	gl::color( Color( 1, 1, 0 ) );
-	//vector<TouchEvent::Touch> activeTouches(getActiveTouches());
-	//for( auto touchIt = activeTouches.begin(); touchIt != activeTouches.end(); ++touchIt ) {
-        //gl::drawStrokedCircle( touchIt->getPos(), 20.0f );
-	//}
+	vector<TouchEvent::Touch> activeTouches(getActiveTouches());
+	for( auto touchIt = activeTouches.begin(); touchIt != activeTouches.end(); ++touchIt ) {
+        gl::drawStrokedCircle( touchIt->getPos(), 20.0f );
+	}
 }
 
 CINDER_APP( TuioMultiTouchBasicApp, RendererGl, []( App::Settings *settings ) {
