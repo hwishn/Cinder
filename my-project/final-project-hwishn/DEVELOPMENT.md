@@ -16,4 +16,4 @@
 Also, added to keyEvent function so user can navigate the game.
 5/5/2020
 added scoring system and and an "end screen" to report the users score
-added tests and modified README file.
+added tests and modified README file. 
